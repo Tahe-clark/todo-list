@@ -1,2 +1,20 @@
-<h1>Ma super Todo List<h1>
-<p>Bienvenue sur ma Todo List !, merci de la tester.</p>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">   <!-- CSS bien lié -->
+</head>
+<body>
+  <h1>Ma Todo List</h1>
+
+  <p id="compteur">Tâches en cours : <span id="count">0</span></p>
+
+  <ul id="tasks-list"></ul>
+
+  <input type="text" id="new-task" placeholder="Nouvelle tâche...">
+  <button onclick="addTask()">Ajouter</button>
+
+  <script src="script.js"></script>   <!-- JS bien lié ICI -->
+</body>
+</html>

@@ -1,0 +1,16 @@
+#compteur {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+#tasks-list li {
+  margin: 0.5rem 0;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
